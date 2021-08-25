@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <script src="src/js/index.js"></script>
+        <title>Convertisseur Chiffres Romains</title>
+    </head>
+    <body>
+        <section>
+            <h1>Convertisseur</h1>
+            <div class="convertisseur-container">
+                <div class="convertisseur-container__entry">
+                    <form action="#">
+                        <label for="entry">Entrez le chiffre Romain : </label
+                        ><input
+                            type="text"
+                            name="entry"
+                            id="entry"
+                            placeholder="XII"
+                        />
+                        <input
+                            type="submit"
+                            value="Envoyer"
+                            onClick="main(event)"
+                        />
+                    </form>
+                </div>
+                <div class="convertisseur-container__result">
+                    <p id="result"></p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
